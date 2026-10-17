@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "width": 320,
+      "binaryWords": "8/10/12/16-bit remain in one row"
+    },
+    {
+      "width": 320,
+      "timer": "0/25/100% compare position and no false pulse at endpoints"
+    },
+    {
+      "width": 390,
+      "binaryWords": "8/10/12/16-bit remain in one row"
+    },
+    {
+      "width": 390,
+      "timer": "0/25/100% compare position and no false pulse at endpoints"
+    },
+    {
+      "width": 768,
+      "binaryWords": "8/10/12/16-bit remain in one row"
+    },
+    {
+      "width": 768,
+      "timer": "0/25/100% compare position and no false pulse at endpoints"
+    },
+    {
+      "width": 1440,
+      "binaryWords": "8/10/12/16-bit remain in one row"
+    },
+    {
+      "width": 1440,
+      "timer": "0/25/100% compare position and no false pulse at endpoints"
+    }
+  ]
+}

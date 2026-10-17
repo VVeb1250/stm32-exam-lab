@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-18T00:00:00+09:00",
+  "title": "Design System: STM32 Signal Lab",
+  "extensions": {
+    "shadows": [{"name":"home-demo","value":"0 16px 42px -24px #17372f5c","purpose":"Lift the single home signal demo"}],
+    "motion": [],
+    "breakpoints": [{"name":"compact-desktop","value":"1200px"},{"name":"stacked","value":"950px"},{"name":"mobile","value":"680px"}]
+  },
+  "components": [
+    {"name":"Primary Button","kind":"button","refersTo":"button-primary","description":"Next learning action","html":"<button class=\"ds-primary\">อ่านลึกขึ้น →</button>","css":".ds-primary{font:600 15px LabThai,Tahoma,sans-serif;min-height:47px;padding:11px 19px;border:1px solid var(--green,#164b40);border-radius:7px;background:var(--green,#164b40);color:#fff;cursor:pointer}.ds-primary:hover{background:var(--green-dark,#11382f)}.ds-primary:focus-visible{outline:3px solid var(--focus,#b65513);outline-offset:4px}"},
+    {"name":"Depth Control","kind":"nav","description":"Optional reading depth within a chapter","html":"<div class=\"ds-levels\"><button aria-pressed=\"true\">พื้นฐาน</button><button aria-pressed=\"false\">พร้อมสอบ</button><button aria-pressed=\"false\">เจาะลึก</button></div>","css":".ds-levels{display:flex;gap:5px;padding:5px;background:#e5ecde;border:1px solid #d0dcc7;border-radius:9px}.ds-levels button{font:600 14px LabThai,Tahoma,sans-serif;min-height:46px;border:0;background:transparent;color:var(--green,#164b40);padding:10px 18px;border-radius:7px}.ds-levels button[aria-pressed=true]{background:var(--green,#164b40);color:white}.ds-levels button:hover{outline:1px solid var(--green,#164b40)}.ds-levels button:focus-visible{outline:3px solid var(--focus,#b65513);outline-offset:3px}"}
+  ],
+  "narrative": {
+    "northStar":"Quiet signal notebook",
+    "overview":"Agent-selected reading surface with hands-on logical signals. Typography and wayfinding remain calm while controls make mechanism changes visible.",
+    "keyCharacteristics":["Thai-first reading","Dark signal surfaces","Native accessible controls"],
+    "rules":[{"name":"Signals carry values","body":"Every visual signal is accompanied by a technical label or numerical readout.","section":"typography"}],
+    "dos":["Keep source status and simulation assumptions visible"],
+    "donts":["Do not confuse choice score with automatic grading of reasoning"]
+  }
+}

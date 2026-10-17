@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-17T17:38:42.118Z",
+  "base": "http://127.0.0.1:4173/stm32-exam-lab/",
+  "results": [
+    {
+      "name": "GitHub project subpath: assets, hash route refresh, skip link",
+      "pass": true
+    },
+    {
+      "name": "GPIO active low control works by keyboard, state matches diagram",
+      "pass": true
+    },
+    {
+      "name": "Search: subject results, empty query, no results, escaped user input",
+      "pass": true
+    },
+    {
+      "name": "Depth, mark read, next chapter and persistence survive reload",
+      "pass": true
+    },
+    {
+      "name": "Practice requires choice AND reason, saves draft, rubric is self-assessed",
+      "pass": true
+    },
+    {
+      "name": "All 82 practice questions have gated reveal and complete explanations",
+      "pass": true
+    },
+    {
+      "name": "Wrong practice filter and retry path",
+      "pass": true
+    },
+    {
+      "name": "Labs: bits, UART frame step, ADC, debounce variants and validation",
+      "pass": true
+    },
+    {
+      "name": "Labs: timer math, scheduling jitter, rate budget and trace state",
+      "pass": true
+    },
+    {
+      "name": "Exam 70-question actual user journey: incomplete prevention, resume, submit, scores",
+      "pass": true
+    },
+    {
+      "name": "Sources distinguish platform / confirmed / generated and extras outside 140",
+      "pass": true
+    },
+    {
+      "name": "Responsive: all 54 lesson levels at 320/390/768/1280/1440 without body overflow",
+      "pass": true
+    },
+    {
+      "name": "Storage failure, corrupt data, safe reset confirmation",
+      "pass": true
+    },
+    {
+      "name": "Final screenshot captures and zero runtime errors",
+      "pass": true
+    }
+  ],
+  "a11y": [
+    {
+      "name": "home",
+      "violations": []
+    },
+    {
+      "name": "lesson",
+      "violations": []
+    },
+    {
+      "name": "practice-revealed",
+      "violations": []
+    },
+    {
+      "name": "uart-lab",
+      "violations": []
+    },
+    {
+      "name": "adc-lab",
+      "violations": []
+    },
+    {
+      "name": "debounce-lab",
+      "violations": []
+    },
+    {
+      "name": "exam-submitted",
+      "violations": []
+    },
+    {
+      "name": "sources",
+      "violations": []
+    }
+  ],
+  "errors": []
+}
