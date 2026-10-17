@@ -4,11 +4,12 @@ Thai self-study experience for EN813202, from first encounter with a microcontro
 
 ## Learning contract
 
-- Eighteen connected lessons, each with basic, exam-ready and deep reading. The learner can choose more depth or move to the next chapter. Reading marks and selected depth persist independently.
-- Nine concept labs: GPIO active-low, bits, three debounce algorithms, UART 8N1 LSB-first, ADC conversion, sampling timing, Timer/PWM, system bandwidth and code tracing. These are deterministic educational models, not firmware/hardware emulation.
-- The original conversation's 70 main questions retain numbering and topic order, with 12 advanced extras. Web choices and self-assessment rubrics are authored additions. Sources and qualifications live in `src/sources.js`.
-- Attempt a choice and write a reason before practice feedback. In exam mode, withhold feedback until all 70 responses have both parts. Choice correctness and self-assessed reasoning points remain separate. The site does not claim automatic grading of free-text reasoning.
-- Search lessons and question concepts. Resume on this browser with localStorage; show a visible warning if storage is denied. Reset requires an inline confirmation.
+- `#learn` is one continuous reading document with three depth zones: foundations, exam-ready mechanisms, and advanced extras. Zone and chapter links scroll to their positions. Reading is never gated by tabs or quizzes.
+- Full assistant-authored teaching content is copied from four authorized conversation messages in `src/chat-content.js`: 505 / 165 / 340 lesson blocks and 586 practice-source blocks. Rendering removes duplicate message titles and chat controls. The teaching snapshot retains tables, MathML, code, 25 Intelligent UI SVG diagrams and seven Mermaid flow diagrams. `src/reading.js` owns the presentation and question boundaries.
+- `#practice` lists all 82 original open-response prompts with native answer disclosures. No selection, written reason or previous/next action is required to read an explanation. Optional topic filters and question jump links preserve navigation. The seven Mermaid diagrams include one within an answer.
+- `#exam` remains an optional, separate 70-question MCQ simulation with authored choices and self-assessment rubrics. It requires a choice and a reason for every item before submission, and does not claim automatic grading of reasoning.
+- Nine concept labs remain available, with relevant experiments embedded as optional disclosures in the reading. They are deterministic educational models, not hardware emulation. The source PWM slider has a local native implementation.
+- Existing lesson deep links jump into full source headings. Reading marks, explanation views and optional exam answers persist in localStorage. Storage denial is visible; reset requires confirmation. Source technical qualifications are shown in the reading and on `#sources`.
 
 ## Source boundary
 
@@ -18,7 +19,7 @@ MCU model and course HAL version are not confirmed. Technical snippets use ST's 
 
 ## Direction contract (agent-selected from the user's brief)
 
-THESIS: Learn by moving a signal and explaining the result, then test the explanation.
+THESIS: Read the complete explanation continuously, inspect the signal when helpful, and reveal reasoning at your own pace.
 
 OWN-WORLD: A quiet Thai lab notebook with a green signal surface. Paper #f8f9f4, ink #18392f, signal green #164b40 and lime #d3f4a4. Noto Sans Thai for reading, monospace only for code and measurements. SVGs are native diagrams, not imitation photographs.
 
@@ -32,7 +33,7 @@ Method disclosure: the Impeccable concept-seed, QUALITY BAR board and decision-c
 
 ## Visual references and comparison
 
-Inspected the real Wokwi Diagram Editor documentation screenshot (`evidence/reference-wokwi.png`): keep persistent topic navigation, a calm reading column and explicit technical labels. Adapt by putting the working signal demo beside the first explanation and by offering depth controls. The course is not a reproduction of Wokwi.
+Inspected the real Wokwi Diagram Editor documentation screenshot (`evidence/reference-wokwi.png`): keep persistent topic navigation, a calm reading column and explicit technical labels. Adapt by putting the working signal demo beside the first explanation and by offering depth-zone jump links. The course is not a reproduction of Wokwi. The latest reading revision uses the actual source conversation as its primary content and layout reference, with continuous prose and inline diagrams.
 
 SparkFun Serial Communication returned a Human Verification page, so that screenshot is not used as visual evidence. Its blocked state is retained in `evidence/reference-capture.json`. A reference is not evidence of learning effectiveness.
 
@@ -41,3 +42,7 @@ Compared initial desktop/mobile captures with the implemented course. Mobile's h
 ## Acceptance evidence
 
 `npm test`: data contracts, calculation/trace units and build/server integration. `npm run test:e2e`: actual browser journeys including all questions, the 70-question exam, persistence/reset, labs, search, keyboard control, responsive widths and axe checks. `evidence/test-results.json` records the observed run. Build output contains only static runtime assets, uses relative URLs and hash routes, and is exercised under `/stm32-exam-lab/`.
+
+## Reading revision visual review
+
+The user explicitly rejected the earlier card-by-card learning/practice flow. Compared the live before state with continuous reading (`evidence/reading-comparison.png`, `evidence/practice-comparison.png`) and a content-only capture of the original UART question (`evidence/reference-chat-question.png`). Source geometry and teaching text are retained; colors and sizing are adapted to the light reading surface. Inspected the diagram contact sheet and individual renders. Corrected clipped mobile SVG sizing, missing ADC gradient definitions, code chrome, source colors below contrast requirements, and preserved the original flow diagrams with local styling. No claim of user approval or participant validation.

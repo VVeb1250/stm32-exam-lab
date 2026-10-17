@@ -1,0 +1,152 @@
+[
+  {
+    "i": 0,
+    "id": "s0-15",
+    "viewBox": "0 0 340 242",
+    "text": "STM32CPU + Memory + PeripheralsGPIODigital I/OADCAnalog → DigitalUARTSerial DataLED / ButtonPotentiometerComputerInterrupt ช่วยแจ้ง CPU เมื่อมีเหตุการณ์"
+  },
+  {
+    "i": 1,
+    "id": "s0-21",
+    "viewBox": "0 0 160 95",
+    "text": "10"
+  },
+  {
+    "i": 2,
+    "id": "s0-21",
+    "viewBox": "0 0 160 95",
+    "text": ""
+  },
+  {
+    "i": 3,
+    "id": "s0-42",
+    "viewBox": "0 0 155 70",
+    "text": "ButtonSTM32"
+  },
+  {
+    "i": 4,
+    "id": "s0-42",
+    "viewBox": "0 0 155 70",
+    "text": "STM32LED"
+  },
+  {
+    "i": 5,
+    "id": "s0-51",
+    "viewBox": "0 0 330 179",
+    "text": "ไม่กด = HIGHกด = LOW3.3 VPC133.3 VPC13Logic 1Logic 0"
+  },
+  {
+    "i": 6,
+    "id": "s0-87",
+    "viewBox": "0 0 330 145",
+    "text": "10Bounceคงที่ = กดจริง"
+  },
+  {
+    "i": 7,
+    "id": "s0-143",
+    "viewBox": "0 0 330 136",
+    "text": "STM32USART2USB-UART→ ComputerTX → RXRX ← TXGND ร่วมกัน"
+  },
+  {
+    "i": 8,
+    "id": "s0-243",
+    "viewBox": "0 0 340 108",
+    "text": "Analog1.0 VADC12-bitDigital≈1241VREF+ = 3.3 V"
+  },
+  {
+    "i": 9,
+    "id": "s0-259",
+    "viewBox": "0 0 300 23",
+    "text": ""
+  },
+  {
+    "i": 10,
+    "id": "s0-320",
+    "viewBox": "0 0 330 115",
+    "text": "0 ms1 ms2 ms3 ms4 ms1 ms"
+  },
+  {
+    "i": 11,
+    "id": "s0-338",
+    "viewBox": "0 0 330 245",
+    "text": "Hardware Timerสร้าง Trigger ทุก 1 msADCแปลง Analog เมื่อได้รับ TriggerDMA → RAM Bufferบันทึกผลลัพธ์โดยไม่ให้ CPU คัดลอกทีละค่าCPU จัดการข้อมูลจาก Buffer ในเวลาที่เหมาะสม"
+  },
+  {
+    "i": 12,
+    "id": "s0-387",
+    "viewBox": "0 0 330 110",
+    "text": "HIGHLOWFallingRising"
+  },
+  {
+    "i": 13,
+    "id": "s1-54",
+    "viewBox": "0 0 150 96",
+    "text": "VDDOUTGND"
+  },
+  {
+    "i": 14,
+    "id": "s1-54",
+    "viewBox": "0 0 150 96",
+    "text": "VDDOUT"
+  },
+  {
+    "i": 15,
+    "id": "s1-82",
+    "viewBox": "0 0 330 80",
+    "text": "UART RXBufferCPU"
+  },
+  {
+    "i": 16,
+    "id": "s2-9",
+    "viewBox": "0 0 340 158",
+    "text": "Clock1 MHzTimerนับ TickEventเมื่อครบค่า012345Counter เพิ่มขึ้นตามจังหวะ Clock"
+  },
+  {
+    "i": 17,
+    "id": "s2-39",
+    "viewBox": "0 0 330 221",
+    "text": "25%LOW50%LOW75%LOW"
+  },
+  {
+    "i": 18,
+    "id": "s2-77",
+    "viewBox": "0 0 330 145",
+    "text": "InputTimer100060005000 Ticks"
+  },
+  {
+    "i": 19,
+    "id": "s2-111",
+    "viewBox": "0 0 330 112",
+    "text": "CNT = 0Compare MatchCCR = 3000ARR"
+  },
+  {
+    "i": 20,
+    "id": "s2-140",
+    "viewBox": "0 0 330 129",
+    "text": "Raw Samples (16 kHz)Average / FilterOutput 1 ค่า"
+  },
+  {
+    "i": 21,
+    "id": "s2-177",
+    "viewBox": "0 0 320 83",
+    "text": "0100200300400Refresh ทุก 100 ms"
+  },
+  {
+    "i": 22,
+    "id": "s2-244",
+    "viewBox": "0 0 330 52",
+    "text": "AB"
+  },
+  {
+    "i": 23,
+    "id": "s2-244",
+    "viewBox": "0 0 330 52",
+    "text": "AB"
+  },
+  {
+    "i": 24,
+    "id": "s2-244",
+    "viewBox": "0 0 330 52",
+    "text": "AB"
+  }
+]

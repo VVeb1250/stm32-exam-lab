@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-17T17:38:42.118Z",
+  "date": "2026-10-17T18:32:41.741Z",
   "base": "http://127.0.0.1:4173/stm32-exam-lab/",
   "results": [
     {
@@ -15,19 +15,15 @@
       "pass": true
     },
     {
-      "name": "Depth, mark read, next chapter and persistence survive reload",
+      "name": "Continuous full lessons: three visible zones, original diagrams, depth jumps and saved marks",
       "pass": true
     },
     {
-      "name": "Practice requires choice AND reason, saves draft, rubric is self-assessed",
+      "name": "Practice is an uninterrupted 82-question list with immediate native explanation disclosures",
       "pass": true
     },
     {
-      "name": "All 82 practice questions have gated reveal and complete explanations",
-      "pass": true
-    },
-    {
-      "name": "Wrong practice filter and retry path",
+      "name": "Question filters and deep links preserve scrolling across topics",
       "pass": true
     },
     {
@@ -47,7 +43,7 @@
       "pass": true
     },
     {
-      "name": "Responsive: all 54 lesson levels at 320/390/768/1280/1440 without body overflow",
+      "name": "Responsive: continuous reading, all explanations and labs at 320/390/768/1280/1440",
       "pass": true
     },
     {
@@ -65,11 +61,15 @@
       "violations": []
     },
     {
-      "name": "lesson",
+      "name": "full-lessons",
       "violations": []
     },
     {
-      "name": "practice-revealed",
+      "name": "practice-reading",
+      "violations": []
+    },
+    {
+      "name": "practice-expanded",
       "violations": []
     },
     {

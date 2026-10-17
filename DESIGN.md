@@ -56,7 +56,7 @@ Self-hosted Noto Sans Thai variable font is named LabThai. Thai/English body tex
 
 ## Layout
 
-Desktop shell uses a 224px navigation rail and fluid main content; at 1200px the rail becomes 190px. The home introduction uses copy beside a working GPIO demo and stacks at 950px. At 680px the rail becomes visible wrapped top navigation. Lesson reading and a 210px contextual aside share a row, stacking below 950px. Sections use whitespace and rules, while questions and labs use bounded surfaces.
+Desktop shell uses a 224px navigation rail and fluid main content; at 1200px the rail becomes 190px. The home introduction uses copy beside a working GPIO demo and stacks at 950px. At 680px the rail becomes visible wrapped top navigation. The continuous reading column is at most 820px wide. Three depth zones use section headings and rules. A sticky zone strip offers jumps without hiding any content. Practice questions use plain document sections and native answer disclosures, with no card container. Optional exams and labs retain bounded surfaces.
 
 ## Elevation & Depth
 
@@ -68,7 +68,7 @@ Controls use 6–7px corners; labs use 12px; home demonstration uses 14px. Diagr
 
 ## Components
 
-Primary controls have green fill and white text, at least 46–47px target height. Selected depth/navigation uses color and `aria-pressed`/`aria-current`. Radio choices retain native inputs; correct answers also carry a text label. Rubrics retain native checkboxes. Focus is a 3px outline with 4px offset.
+Primary controls have green fill and white text, at least 46–47px target height. Reading marks/navigation use `aria-pressed`/`aria-current`. Radio choices retain native inputs; correct answers also carry a text label. Rubrics retain native checkboxes. Focus is a 3px outline with 4px offset.
 
 Labs pair a dark output area with a light control area. Charts preserve textual readouts and accessible names. Wide timing diagrams and tables scroll within their region. Forms keep labels, invalid-input messages and draft persistence. Motion is limited to meaningful direct updates, with reduced-motion support.
 
@@ -77,8 +77,14 @@ Labs pair a dark output area with a light control area. Charts preserve textual 
 - Do keep technical labels adjacent to their signals and explain idealized models.
 - Do keep learning, choice correctness and self-assessed reasoning separate.
 - Do use native inputs and semantic headings before adding custom interaction.
-- Do preserve the same reading system across depth levels.
+- Do keep all depth zones in the reading flow; jump links never replace content.
+- Do use native details/summary for explanations without forcing an attempted answer.
+- Do keep the copied Intelligent UI diagrams, tables and formula layout alongside their explanation.
 - Don't present simulated results as measured hardware behavior.
 - Don't use colors alone to distinguish exam correctness.
 
 Known limits are in PRODUCT.md and the verification report. No unreadable or inaccessible state is canonized as a design rule.
+
+## Conversation content
+
+Source components are scoped under `.chat-prose`, with semantic headings, bold emphasis, readable MathML and internally scrolling code/tables/wide diagrams. Nontechnical chat controls and citation chrome are omitted. Original SVG geometry and Mermaid labels stay in the source snapshot, while local CSS supplies the light palette, text contrast and focusable scroll regions. Source PWM controls update the high/low proportions and numeric readouts together.
